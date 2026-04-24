@@ -1,0 +1,8 @@
+{
+  "model_name": "anthropic/claude-sonnet-4-20250514",
+  "max_iterations": 300,
+  "context_limit_tokens": 170000,
+  "stream": true,
+  "mcpServers": {},
+  "system_prompt_extra": ""
+}

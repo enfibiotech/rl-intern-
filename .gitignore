@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+.uv/
+
+# Env
+.env
+*.env.local
+
+# RL artifacts
+models/
+logs/
+runs/
+*.zip
+*.pt
+*.pth
+*.pkl
+*.ckpt
+
+# Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
