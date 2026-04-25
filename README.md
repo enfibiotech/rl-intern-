@@ -332,20 +332,6 @@ Contributions are welcome! To add a new built-in tool:
 
 ---
 
-## 🙏 Acknowledgements
-
-Built on the shoulders of giants:
-
-- [ml-intern](https://github.com/huggingface/ml-intern) — the architecture inspiration
-- [Anthropic Claude](https://www.anthropic.com) — the brain
-- [Stable-Baselines3](https://stable-baselines3.readthedocs.io) — RL algorithms
-- [Gymnasium](https://gymnasium.farama.org) — environments
-- [Hugging Face Hub](https://huggingface.co) — model hosting
-- [LiteLLM](https://litellm.ai) — unified LLM interface
-- [Model Context Protocol](https://modelcontextprotocol.io) — tool extensibility
-
----
-
 <div align="center">
 
 **Made with ❤️ for the RL community**
