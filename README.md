@@ -1,7 +1,3 @@
-<div align="center">
-
-<img src="src/info.png" alt="RL Intern" width="100%"/>
-
 # 🤖 RL Intern
 
 **Your autonomous Reinforcement Learning engineer.**  
@@ -21,7 +17,9 @@ Reads papers. Builds agents. Ships models. All while you sleep.
 
 </div>
 
----
+<div align="center">
+
+<img src="src/info.png" alt="RL Intern" width="100%"/>
 
 ## ✨ What is RL Intern?
 
