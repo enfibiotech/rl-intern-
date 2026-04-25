@@ -282,35 +282,9 @@ docker run -it \
 
 ## 🗂️ Project Structure
 
-```
-rl-intern/
-├── agent/
-│   ├── cli.py                   ← Rich terminal UI, REPL + headless mode
-│   └── core/
-│       ├── agent_loop.py        ← Agentic loop (submission_queue / event_queue)
-│       ├── session.py           ← Wires ContextManager + ToolRouter + MCPClient
-│       ├── tool_router.py       ← Routes to built-ins OR MCP servers
-│       ├── tools.py             ← 15 RL-specific built-in tools
-│       ├── mcp_client.py        ← MCP: stdio + HTTP/SSE transports
-│       ├── context_manager.py   ← Message history + auto-compaction at 170k tokens
-│       ├── doom_loop.py         ← Detects & breaks repetitive tool patterns
-│       └── events.py            ← Typed event bus
-├── configs/
-│   └── main_agent_config.json   ← Model, limits, MCP servers
-├── tests/
-│   ├── test_core.py             ← Tools, context, doom loop tests
-│   └── test_mcp.py              ← MCP client + routing tests
-├── examples/
-│   ├── programmatic_usage.py    ← Use as a Python library
-│   └── custom_tool.py           ← Add your own tools
-├── src/
-│   ├── architecture.png
-│   └── info.png
-├── pyproject.toml
-├── Dockerfile
-└── .env.example
-```
+<div align="center">
 
+<img src="src/folder structure.png" alt="RL Intern" width="100%"/>
 ---
 
 ## 🧪 Running Tests
