@@ -32,8 +32,6 @@ RL Intern is an **autonomous AI agent** that acts as your personal RL engineer. 
 - 📊 **Evaluate** — report mean reward, std deviation, episode stats  
 - 🚀 **Ship** — upload trained models directly to the Hugging Face Hub  
 
-It's inspired by [ml-intern](https://github.com/huggingface/ml-intern) — but purpose-built for **Reinforcement Learning**.
-
 ---
 
 ## 🏗️ Architecture
